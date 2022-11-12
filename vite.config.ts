@@ -1,7 +1,14 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+
+import mdx from "@mdx-js/rollup";
+import svgr from "@svgr/rollup";
+import reactRefresh from "@vitejs/plugin-react-refresh";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [react()],
+	plugins: [
+		reactRefresh(),
+		mdx({ providerImportSource: "@mdx-js/react" }),
+		svgr(),
+	],
 });
