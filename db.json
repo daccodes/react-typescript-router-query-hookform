@@ -1,0 +1,27 @@
+{
+	"timetracking": [],
+	"contacts": [
+		{
+			"id": 1,
+			"image": "https://pbs.twimg.com/profile_images/1214301065430126594/aTyCRJ5I_400x400.jpg",
+			"name": "Fabio",
+			"surname": "Biondi",
+			"role": "Frontend Dev",
+			"company": "Freelance",
+			"tel": "3333333333",
+			"email": "info@fabiobiondi.io",
+			"notes": "some annotations"
+		},
+		{
+			"id": 2,
+			"image": "https://pbs.twimg.com/profile_images/1428746979337703426/J-vAEKQw_400x400.jpg",
+			"name": "Michele",
+			"surname": "Stieven",
+			"role": "Frontend Dev",
+			"company": "Freelance",
+			"tel": "4444444444",
+			"email": "info@michelestieven.io",
+			"notes": "another note"
+		}
+	]
+}
